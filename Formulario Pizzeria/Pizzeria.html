@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <style>
+        body {
+            display: flex;
+            text-align: left;
+            height: 100vh;
+        }
+        fieldset {
+            text-align: left;
+            padding: 20px 40px;
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <br>
+    <hr>
+    <form action="al038964@iesfrancesctarrega.com" method="post">
+        <fieldset>
+            <legend><b>La Pizza</b></legend>
+            <legend><b>Ingredientes</b></legend>
+            <input type="checkbox" name="queso" value="Queso">Queso<br>
+            <input type="checkbox" name="pimiento" value="Pimiento">Pimiento<br>
+            <input type="checkbox" name="cebolla" value="Cebolla">Cebolla<br>
+            <input type="checkbox" name="jamon" value="Jamón">Jamón<br>
+            <input type="checkbox" name="tabasco" value="Tabasco">Tabasco<br>
+            <input type="checkbox" name="salami" value="Salami">Salami<br>
+            <input type="checkbox" name="pollo" value="Pollo">Pollo<br>
+            <input type="checkbox" name="atun" value="Atun">Atún<br>
+            <br>
+            <legend><b>Tamaño</b></legend>
+            <br>
+            <input type="radio" name="tamaño" value="Pequeña" checked="checked">Pequeña<br>
+            <input type="radio" name="tamaño" value="Mediana">Mediana<br>
+            <input type="radio" name="tamaño" value="Grande">Grande<br>
+            <br>
+            <legend><b>Tipo de masa</b></legend>
+            <br>
+            <input type="radio" name="tipo" value="Fina" checked="checked">Fina<br>
+            <input type="radio" name="tipo" value="Clásica">Clásica<br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Datos de Entrega</b></legend>
+            Nombre: <input type="text" placeholder="Escribe tu nombre" name="nombre" maxlength="15" size="15" required><br>
+            Dirección: <input type="text" placeholder="Escribe tu dirección" name="direccion" maxlength="30" size="20" required><br>
+            Teléfono: <input type="text" placeholder="Escribe tu TLF" name="telefono" maxlength="15" size="15" required><br>
+            Instrucciones especiales:<br>
+            <textarea placeholder="Escriba especificaciones personales de lo que requiere" name="mensaje" cols="50" rows="8"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Método de Pago</b></legend>
+                <select id="Pago" name="so">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+                <option value="Linux">Transferencia</option>
+                </select>
+        </fieldset>
+        <input type="submit" name="enviar" value="OK">
+</body>
+</html>

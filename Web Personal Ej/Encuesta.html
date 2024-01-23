@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: left;
+        }
+        fieldset {
+            padding: 20px 40px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h3><a href="C:\Users\edusa\OneDrive\Escritorio\Lenguaje de Marcas\Proyectos\HTML\Web Personal Ej\Ejercicio1.html">Volver</a></h3>
+    <form action="al038964@iesfrancesctarrega.com" method="post">
+        <h1>Encuesta Personal</h1>
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+            Nombre: <input type="text" placeholder="Escribe tu nombre" name="nombre" maxlength="15" size="15" required><br>
+            Apellidos: <input type="text" placeholder="Escribe tus apellidos" name="apellidos" maxlength="30" size="20" required><br>
+            Correo: <input type="text" placeholder="Escribe tu correo" name="correo" maxlength="15" size="15" required><br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Preferéncias</b></legend>
+            <legend><b>Gustos Cinemáticos</b></legend>
+            <input type="checkbox" name="drama" value="Drama" checked="checked">Drama<br>
+            <input type="checkbox" name="ficción" value="Ficción">Ficción<br>
+            <input type="checkbox" name="aventura" value="Aventura">Aventura<br>
+            <input type="checkbox" name="misterio" value="Misterio">Misterio<br>
+            <legend><b>Gustos de Libros</b></legend>
+            <input type="checkbox" name="drama" value="Drama" checked="checked">Drama<br>
+            <input type="checkbox" name="ficción" value="Ficción">Ficción<br>
+            <input type="checkbox" name="aventura" value="Aventura">Aventura<br>
+            <input type="checkbox" name="misterio" value="Misterio">Misterio<br>
+            <legend><b>Gustos de los Juegos</b></legend>
+            <input type="checkbox" name="PVP" value="PVP" checked="checked">PVP<br>
+            <input type="checkbox" name="PVE" value="PVE">PVE<br>
+            <input type="checkbox" name="Historia" value="Historia">Historia<br>
+            <input type="checkbox" name="Supervivencia" value="Supervivencia">Supervivencia<br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Valoración de la página</b></legend>
+            <input type="radio" name="valoracion" value="5 Estrellas" checked="checked">5 Estrellas<br>
+            <input type="radio" name="valoracion" value="4 Estrellas">4 Estrellas<br>
+            <input type="radio" name="valoracion" value="3 Estrellas">3 Estrellas<br>
+            <input type="radio" name="valoracion" value="2 Estrellas">2 Estrellas<br>
+            <input type="radio" name="valoracion" value="1 Estrella">1 Estrellas<br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Opinión personal de mejoras sobre la página</b></legend>
+            Opinión<textarea placeholder="Es posible escribir todo el texto" name="mensaje" cols="30" rows="4"></textarea><br>
+        </fieldset>
+        <br>
+        <input type="submit" name="buscar" value="Enviar Consulta">
+        <input type="reset" name="limpiar" value="Borrar datos del formulario">
+        <input type="button" onclick="alert('Se han guardado los datos correctamente')" name="guardar" value="Guardar Cambios"><br>
+        </select>
+    </body>
+</html>
