@@ -1,0 +1,39 @@
+h1{
+    background-color: lightblue;
+    text-align: center;
+    border: 5px solid rgba(95, 95, 141, 0.651);
+    padding: 10px;
+    color:blue;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+}
+
+body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+      background-image: url(../imatge/fons.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    border: 2px solid orangered;
+    padding: 10xp;
+    margin: 5px;
+    font-size: 20xp;
+    background-color: white;
+}
+
+a{
+    color: orangered;
+}
